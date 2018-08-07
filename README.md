@@ -6,10 +6,13 @@
 打开xshell然后新建会话然后输入VPS的ip和端口号，然后还有登陆的账号和密码，如root和xyewrlvobtnldm这种VPS官方发你的账号和密码。
 
 3.**VPS远程配置SSR**。
-
+```
 `wget --no-check-certificate	 https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
+
 chmod +x shadowsocksR.sh
+
 ./shadowsocksR.sh 2>&1 | tee shadowsocksR.log`
+```
 如果没问题就可以输入ss密码了。
 然后输入端口，输入一个大于1024的任意端口。
 然后输入加密，随便选，第一个aes就行。
