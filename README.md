@@ -37,6 +37,7 @@ chmod +x shadowsocksR.sh
 	当前安装的 Kcptun 版本为: 20180316
 
 可使用的客户端配置文件为:
+```
 {
   "localaddr": ":2333",
   "remoteaddr": "195.120.118.8:29900",
@@ -52,6 +53,7 @@ chmod +x shadowsocksR.sh
   "nocomp": false,
   "quiet": false
 }
+```
 
 我们会见到上述文本类似的东西， 复制括号内的所有东西包括{}括号下来然后保存在我们本地，后缀为json。
 
@@ -78,6 +80,7 @@ vi /etc/shadowsocks.json
 按i编辑，esc退出编辑，然后按Shift+Q编辑状态输入:wq保存
 
 示例如下,请对照自己配置进行修改：
+```
 {
 "server": "0.0.0.0",
 "server_ipv6": "::",
@@ -103,6 +106,7 @@ vi /etc/shadowsocks.json
 "fast_open": false,
 "workers": 1
 }
+```
 
 简单说也就是把你设置的一个端口改成包含多个端口和密码罢了。这时候我们的VPS的防火墙可能还会限制，所以再去配置下防火墙。
 
