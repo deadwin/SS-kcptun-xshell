@@ -7,11 +7,11 @@
 
 3.**VPS远程配置SSR**。
 ```
-`wget --no-check-certificate	 https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
+wget --no-check-certificate	 https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
 
 chmod +x shadowsocksR.sh
 
-./shadowsocksR.sh 2>&1 | tee shadowsocksR.log`
+./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
 ```
 如果没问题就可以输入ss密码了。
 然后输入端口，输入一个大于1024的任意端口。
