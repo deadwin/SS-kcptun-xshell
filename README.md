@@ -17,11 +17,6 @@ chmod +x shadowsocksR.sh
 yum -y install wget
 
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
-
-作者：BugKing
-链接：https://www.jianshu.com/p/d3fec7121a93
-來源：简书
-简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
 ```
 如果没问题就可以输入ss密码了。
 然后输入端口，输入一个大于1024的任意端口。
